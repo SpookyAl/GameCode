@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerControl : MonoBehaviour
+public class <Add the name of your file here> : MonoBehaviour
 {
     public float speed = 1;
     public float jumpForce = 1;
@@ -39,7 +39,7 @@ public class PlayerControl : MonoBehaviour
         
         if(turnScale < 0)
         {
-            playerBody.transform.localScale = new Vector2(-3.0f,3.0f);
+            playerBody.transform.localScale = new Vector2(3.0f,3.0f);
         }
         else if(turnScale > 0)
         {
