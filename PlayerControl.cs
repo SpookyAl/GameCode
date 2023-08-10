@@ -39,11 +39,11 @@ public class <Add the name of your file here> : MonoBehaviour
         
         if(turnScale < 0)
         {
-            playerBody.transform.localScale = new Vector2(3.0f,3.0f);
+            playerBody.transform.localScale = new Vector2(-playerBody.transform.localScale.x, playerBody.transform.localScale.y);
         }
         else if(turnScale > 0)
         {
-            playerBody.transform.localScale = new Vector2(3.0f,3.0f);
+            playerBody.transform.localScale = new Vector2(playerBody.transform.localScale.x, playerBody.transform.localScale.y);
         }
 
     }
