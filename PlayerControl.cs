@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class <Add the name of your file here> : MonoBehaviour
+public class Add the name of your file here : MonoBehaviour
 {
     public float speed = 1;
     public float jumpForce = 1;
